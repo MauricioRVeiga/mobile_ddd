@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Consulta DDD",
+    "slug": "consulta-ddd",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#f5efe6"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
