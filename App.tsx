@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import {
   ActivityIndicator,
   FlatList,
+  Keyboard,
   Pressable,
   SafeAreaView,
   StyleSheet,
@@ -80,6 +81,8 @@ export default function App() {
   };
 
   const handleSearch = () => {
+    Keyboard.dismiss();
+
     if (!isValidDdd) {
       setErrorMessage("Informe um DDD com exatamente 2 digitos numericos.");
       setData(null);
